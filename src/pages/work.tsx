@@ -31,7 +31,6 @@ export default function Work() {
             <h2 className="text-5xl font-bold text-primary-100 mb-3">
               {work.company}
             </h2>
-            
             <a href={work.link} target="_blank" rel="noreferrer">
               visit
             </a>
