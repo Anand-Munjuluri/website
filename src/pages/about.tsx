@@ -6,37 +6,25 @@ export default function About() {
   return (
     <AnimatedPage>
       <Head>
-        <title>cody — about</title>
+        <title>anand — about</title>
         <meta
           name="description"
-          content="hey, i'm cody, an 18 year old software engineer and designer based in the
-        united states. i strive to build unique and polished web
-        interfaces for both consumer and business ends. i love lacrosse,
-        capybaras, and writing open source software! i'm currently working on Bloom & Hop"
+          content="Hey, I'm Anand, a student at SRM University, rocking my B.Tech in CSE. Building dope websites is my jam, you know? When I'm not grinding away at code, I'm most likely catching some Z's, because, hey, even tech wizards need their beauty sleep, right? 🚀✨"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="title__wrapper">
         <AnimatedText element="h1" text="About" />
       </div>
-      <p>
-        hey, i'm cody, an 18 year old software engineer and designer based in
-        the united states. i strive to build unique and polished web interfaces
-        for both consumer and business ends. i love lacrosse, capybaras, and
-        writing open source software!
-        <br />
-        <br />
-        currently working on{" "}
-        <a href="https://bloomapp.com" target="_blank" rel="noreferrer">
-          Bloom
-        </a>{" "}
-        &{" "}
-        <a href="https://hop.io" target="_blank" rel="noreferrer">
-          Hop
-        </a>
-      </p>
+        <p>
+          Hey, I'm Anand, a student at SRM University, rocking my B.Tech in CSE. Building dope websites is my jam, you know? When I'm not grinding away at code, I'm most likely catching some Z's, because, hey, even tech wizards need their beauty sleep, right? 🚀✨
+          <br />
+          <br />
+          currently working on{" "}
+          <a href="https://finmuni.com/" target="_blank" rel="noreferrer">
+            FinMuni
+          </a>
+        </p>
     </AnimatedPage>
   );
 }

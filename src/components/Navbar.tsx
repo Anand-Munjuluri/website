@@ -30,7 +30,7 @@ function Navbar() {
     <nav className="flex fixed bottom-0 items-center h-[15vh] w-full px-default-window-sm sm:px-default-window border-t border-primary-700 mt-auto overflow-x-auto bg-primary-900">
       <h2 className="grow pr-default-window-sm sm:pr-default-window">
         <Link className="capitalize text-2xl" href="/">
-          <span>CM</span>
+          <span>A M</span>
         </Link>
       </h2>
       <motion.ul

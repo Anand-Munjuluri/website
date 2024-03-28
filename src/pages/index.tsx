@@ -108,10 +108,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>cody</title>
+        <title>Anand</title>
         <meta
           name="description"
-          content="im cody, a 18 year old software engineer and designer based in the United States."
+          content="Hey, I'm Anand, a student at SRM University, rocking my B.Tech in CSE. Building dope websites is my jam, you know? When I'm not grinding away at code, I'm most likely catching some Z's, because, hey, even tech wizards need their beauty sleep, right? 🚀✨"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -146,17 +146,17 @@ export default function Home() {
           }}
           animate={animationControls}
         >
-          <AnimatedText element="h1" text="Cody" />
-          <AnimatedText element="h1" text="Miller" />
+          <AnimatedText element="h1" text="Anand" />
+          <AnimatedText element="h1" text="Munjuluri" />
 
           <AnimatedText
             element="span"
-            text="Software Engineer"
+            text="Student"
             artificialDelay={twBreakpoint === "sm" ? 0 : 2.5}
           />
           <AnimatedText
             element="span"
-            text="Designer"
+            text="Full Stack Developer"
             artificialDelay={twBreakpoint === "sm" ? 0.85 : 3.5}
           />
         </motion.div>
