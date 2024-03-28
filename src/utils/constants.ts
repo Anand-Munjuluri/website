@@ -8,9 +8,7 @@ const GITHUB = "https://github.com/Anand-Munjuluri";
 const TWITTER = "https://twitter.com/devneophyt3";
 const LINKEDIN = "https://linkedin.com/in/anandev/";
 const INSTAGRAM = "https://instagram.com/anand_munjuluri";
-
-
-
+const DISCORD_ID = "581061202378227746";
 type Work = {
   company: string;
   link?: string;
@@ -39,5 +37,6 @@ export {
   LINKEDIN,
   INSTAGRAM,
   WORK,
+  DISCORD_ID,
   fullTwConfig,
 };
