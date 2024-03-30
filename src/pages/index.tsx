@@ -97,7 +97,7 @@ export default function Home() {
         })
         .then(() => {
           animationControls.set({
-            zIndex: 1000,
+            zIndex: 20,
           });
         });
     };
@@ -125,7 +125,7 @@ export default function Home() {
           <motion.div
             key={direction}
             className={cn(
-              "w-full h-full fixed top-0 left-0 bg-primary-800 z-1000 hidden sm:block",
+              "w-full h-full fixed top-0 left-0 bg-primary-800 z-50 hidden sm:block",
               {
                 "bg-primary-700": direction === "horizontal",
               }
@@ -139,7 +139,7 @@ export default function Home() {
         ))}
 
         <motion.div
-          className="absolute title__wrapper md:z-[100]"
+          className="relative title__wrapper md:z-[51]"
           style={{
             translateX: "50%",
             translateY: "50%",
