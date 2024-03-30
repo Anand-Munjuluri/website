@@ -29,11 +29,13 @@ export default function Work() {
               {index.toString().padStart(2, "0")}
             </span>
             <h2 className="text-5xl font-bold text-primary-100 mb-3">
-              {work.company}
+              <a href={work.link} target="_blank" rel="noreferrer">
+                {work.company}
+              </a>
             </h2>
-            <a href={work.link} target="_blank" rel="noreferrer">
-              visit
-            </a>
+            <p>
+              {work.description}
+            </p>
           </div>
         ))}
       </div>

@@ -7,6 +7,7 @@ import {
   MailIcon,
   TwitterIcon,
 } from "../components/Icons";
+import { WORK } from '../utils/constants';
 import AnimatedPage from "../components/PageWrapper";
 import { GITHUB, INSTAGRAM, LINKEDIN, TWITTER } from "../utils/constants";
 

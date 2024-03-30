@@ -29,7 +29,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <div className="w-full h-[85vh] overflow-x-hidden bg-grid-primary-800/50">
           <Component {...pageProps} />
         </div>
-
         <Spotify />
         <Navbar />
       </div>

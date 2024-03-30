@@ -17,6 +17,9 @@ const AnimatedPage = ({ children }: { children?: ReactNode | undefined }) => (
     className="p-default-window-sm sm:p-default-window"
     animate={PAGE_ANIMATION.animate}
     initial={PAGE_ANIMATION.initial}
+    style={{
+      y: "700%", // Adjust this value as needed
+    }}
   >
     {children}
   </motion.div>
